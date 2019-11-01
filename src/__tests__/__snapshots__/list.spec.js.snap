@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`快照测试 列表页全页快照 1`] = `
+<Panel
+  className=""
+  confirmLoading={false}
+  footer={false}
+  loading={false}
+  onCancel={[Function]}
+  onOk={[Function]}
+  prefixCls="ant-panel"
+  title=""
+>
+  <AdvancedSearchForm
+    autoSubmitForm={false}
+    defaultParams={Object {}}
+    filterSubmitHandler={[Function]}
+    layout="horizontal"
+    loading={false}
+    showConfig={false}
+    showExpand={3}
+  >
+    <Input
+      label="serverName.label"
+      name="serverName"
+      type="text"
+    />
+  </AdvancedSearchForm>
+  <ButtonGroups
+    handleClick={[Function]}
+    mode="ButtonGroup"
+    showSize={5}
+    viewMode="text"
+  >
+    <Button
+      actionkey="add"
+      block={false}
+      ghost={false}
+      htmlType="button"
+      loading={false}
+      type="primary"
+    >
+      GLOBAL.NEW
+       
+    </Button>
+    <Button
+      actionkey="delete"
+      block={false}
+      confirm="delete.confirm"
+      disabled={true}
+      ghost={false}
+      htmlType="button"
+      loading={false}
+    >
+      GLOBAL.REMOVE
+    </Button>
+  </ButtonGroups>
+  <DataTable
+    columns={
+      Array [
+        Object {
+          "dataIndex": "name",
+          "key": "name",
+          "title": "name.label",
+        },
+        Object {
+          "dataIndex": "title",
+          "key": "title",
+          "title": "title.label",
+        },
+        Object {
+          "dataIndex": "options",
+          "key": "options",
+          "render": [Function],
+          "title": "GLOBAL.COLUMNS.OPTIONS",
+          "width": 190,
+        },
+      ]
+    }
+    dataSource={Array []}
+    defaultSort={Object {}}
+    onChange={[Function]}
+    page={Object {}}
+    pagination={
+      Object {
+        "pageSizeOptions": Array [
+          "10",
+          "20",
+          "50",
+          "100",
+        ],
+        "showSizeChanger": true,
+        "showTotal": [Function],
+        "size": "middle",
+      }
+    }
+    prefixCls="ant-table"
+    rowKey="id"
+    showConfig={false}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  />
+</Panel>
+`;

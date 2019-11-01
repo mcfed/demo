@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`快照测试 添加模式表单页全页快照 1`] = `
+<Panel
+  className=""
+  confirmLoading={false}
+  loading={false}
+  onCancel={[Function]}
+  onOk={[Function]}
+  prefixCls="ant-panel"
+  title=""
+>
+  <Form(BaseForm)
+    onSubmit={[Function]}
+  >
+    <FormItem
+      containerTo={true}
+    >
+      <Input
+        name="id"
+        type="hidden"
+      />
+    </FormItem>
+    <FormItem
+      containerTo={true}
+    >
+      <Input
+        label="name.label"
+        name="name"
+        type="text"
+      />
+    </FormItem>
+    <FormItem
+      containerTo={true}
+    >
+      <Input
+        label="title.label"
+        name="title"
+        type="text"
+      />
+    </FormItem>
+  </Form(BaseForm)>
+</Panel>
+`;
+
+exports[`快照测试 编辑模式表单页全页快照 1`] = `
+<Panel
+  className=""
+  confirmLoading={false}
+  loading={false}
+  onCancel={[Function]}
+  onOk={[Function]}
+  prefixCls="ant-panel"
+  title=""
+>
+  <Form(BaseForm)
+    onSubmit={[Function]}
+  >
+    <FormItem
+      containerTo={true}
+    >
+      <Input
+        name="id"
+        type="hidden"
+      />
+    </FormItem>
+    <FormItem
+      containerTo={true}
+    >
+      <Input
+        label="name.label"
+        name="name"
+        type="text"
+      />
+    </FormItem>
+    <FormItem
+      containerTo={true}
+    >
+      <Input
+        label="title.label"
+        name="title"
+        type="text"
+      />
+    </FormItem>
+  </Form(BaseForm)>
+</Panel>
+`;

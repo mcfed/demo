@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`快照测试 详情页全页快照 1`] = `
+<Panel
+  className=""
+  confirmLoading={false}
+  footer={[Function]}
+  loading={false}
+  onCancel={[Function]}
+  onOk={[Function]}
+  prefixCls="ant-panel"
+  title="GLOBAL.DETAIL"
+>
+  <DetailTable
+    columnNumber={2}
+    dataSource={
+      Array [
+        Object {
+          "label": "name.label",
+          "value": undefined,
+        },
+        Object {
+          "label": "title.label",
+          "value": undefined,
+        },
+      ]
+    }
+    labelKey="label"
+    tableClass="ant-table ant-table-bordered ant-table-detail"
+    title="baseInfo.title"
+    valueKey="value"
+  />
+</Panel>
+`;
